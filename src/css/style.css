@@ -1,0 +1,51 @@
+.navbar {
+    background-color: #3550d3;
+    display: flex;
+    height: 70px;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+    padding: 20px 25px;
+}
+
+.sing_in_btn{
+    color: white;
+    padding: 15px 35px;
+    background-color: transparent;
+    border: 1px solid white;
+    border-radius: 55px;
+}
+
+.nav_utilities {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    flex-direction: row;
+}
+
+.mobile_menu_nav_btn {
+    width: 40px;
+    height: 50px;
+    display: flex;
+    gap: 5px;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.mobile_menu_bar {
+    display: block;
+    width: 70%;
+    border-radius: 2px;
+    height: 3px;    background-color: white;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: grey
+}
