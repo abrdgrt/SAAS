@@ -1,0 +1,153 @@
+.navbar {
+    height: 70px;
+    background-color: blue;
+    display: flex;
+    align-content: space-between;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.navbar_pages {
+    list-style: none;
+    display: flex;
+    color: white;
+}
+
+li {
+    padding-left: 70px;
+}
+
+.nav_image {
+    max-width: 30px;
+
+}
+
+.navbar_button {
+padding: 15px 15px;
+background: transparent;
+border-radius: 10px;
+border-color: white;
+}
+
+body {
+    margin: 0px;
+    padding: 40px;
+}
+
+.background_hero {
+    margin-top: 0px;
+    height: 1000px;
+    background-color: aqua;
+    display: flex;
+    flex-direction: column;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url('images/hero-bg-1.png');
+}
+
+.hero-img {
+    margin-top: 60px;
+    justify-self: flex-end;
+}
+
+.bh_text {
+    margin: 0px;
+    font-size: 80px;
+    padding-top: 80px;
+    margin-top: 80px;
+    color: white;
+    text-align: center;
+}
+
+.bh_button {
+    padding: 20px 20px;
+    border-radius: 15px;
+    background-color:white;
+    border-color: white;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+.container_hero {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Card */
+.container_card {
+    display: flex;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    padding: 40px 40px;
+}
+
+/* Circles in the card */
+.dot {
+    height: 80px;
+    width: 80px;
+    background-color: chocolate;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+/* Data Analysis Text */
+.data_text {
+    color: #9e59ff;
+    background-color: azure;
+    padding: 10px 24px;
+    border-radius: 20px;
+}
+
+.image-stack_top {
+    position: relative;
+    width: 400px;
+    height: 200px;
+  }
+
+.image-stack_bottom {
+    position: relative;
+    top: 50px;
+    left: 20px;
+    width: 200px;
+    height: 100px;
+}
+
+.container_data {
+    margin: 30px;
+    padding: 20px;
+    display: flex;
+
+}
+
+.analysis_btn {
+    padding: 13px 47px;
+    background-color: transparent;
+    color: cornflowerblue;
+    border-color: cornflowerblue;
+    border-radius: 20px;
+}
+
+.container_data2 {
+    margin-top: 20px;
+    padding: 20px;
+    display: flex;  
+}
+
+.image-stack_top {
+    position: relative;
+    width: 400px;
+    height: 200px;
+  }
+
+.image-stack_bottom2 {
+    position: relative;
+     right: 100;
+   
+}
